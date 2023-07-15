@@ -14,7 +14,7 @@ import Header from "./components/header/header";
 import Footer from "./components/footer/Footer";
 import Home from "./pages/home/Home";
 import Details from "./pages/details/Details";
-import SearchResult from "./pages/searchResult/SearchResult";
+import SearchResult from "./pages/searchResult/SearchResults";
 import Explore from "./pages/explore/Explore";
 import PageNotFound from "./pages/404/PagesNotFound";
 
