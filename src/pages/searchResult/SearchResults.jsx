@@ -10,7 +10,7 @@ import MovieCard from "../../components/movieCard/MovieCard";
 import Spinner from "../../components/spinner/Spinner";
 // import noResults from "../../assets/no-results.png";
 
-const searchResult = () => {
+const SearchResults = () => {
     const [data,setData] = useState(null);
     const [pageNum, setPageNum]= useState(1);
     const [loading, setLoading] = useState(false);
@@ -83,4 +83,4 @@ const searchResult = () => {
     )
 }
 
-export default searchResult;
+export default SearchResults;

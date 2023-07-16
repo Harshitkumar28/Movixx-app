@@ -8,7 +8,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import {getApiConfiguration, getGenres } from "./store/homeSlice";
 
 
-import Header from "./components/header/header";
+import Header from "./components/header/Heading";
 // pta nhi kyu pr yha pe 'H'eader ke badle 'h'eader likha 
 // to fir chl gya waise nhi i don't know why
 import Footer from "./components/footer/Footer";
