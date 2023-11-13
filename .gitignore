@@ -6,7 +6,20 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
+
+# removing git
 .env
+
+
+
+
+
+# User
+# what does this means :-
+# git rm -r --cached .env
+
+# ChatGPT
+# The command git rm -r --cached .env is used to remove a file or directory from Git's version control system while keeping the file or directory in your working directory. 
 
 #this node_modules MUST be there
 node_modules 
