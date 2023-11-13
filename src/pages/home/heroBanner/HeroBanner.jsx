@@ -21,8 +21,6 @@ const HeroBanner = () => {
     useEffect ( () => {
         const bg = url.backdrop + 
         data?.results?.[Math.floor(Math.random() *20)]?.backdrop_path;
-        // math.floor is used to make result whole no.
-        // this '?' is used taaki when data have no value then this fn results does not call 
         setBackground(bg);
     } , [data]);
 
